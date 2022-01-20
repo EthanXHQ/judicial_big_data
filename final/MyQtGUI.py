@@ -149,7 +149,8 @@ class ManualMenu(QFrame):
         dictionary = self.noteArea.notes_to_dict()
         json_file_path = "./file_save/" + "file_note.json"
         with open(json_file_path, "w+", encoding="UTF-8") as js_file:
-            json.dump(dictionary, js_file)
+            print(dictionary)
+            json.dump(dictionary, js_file, ensure_ascii=False)
         QMessageBox.information(self, "Title", "成功保存至" + os.path.abspath("./MyQtGUI.py")[0:-10] + "file_save",
                                 QMessageBox.Yes)
 
