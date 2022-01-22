@@ -1,6 +1,24 @@
-## README
+## 2021-Fundamental-of-Data-Science-Project
 
-This is the final version of our projrct of Fundamental of Data Science.
+此项目为南京大学软件学院“数据科学基础2021秋”大作业
+
+**主题：**司法大数据自动化标注与分析
+
+**组长：**201250067 徐浩钦
+
+**组员：**201250068 陈骏、201250044 王星云
+
+**邮箱：**201250067@smail.nju.edu.cn
+
+**开源链接：**https://github.com/EthanXHQ/judicial_big_data
+
+**小组分工：**
+
+- **爬虫模块：**徐浩钦
+- **自动化标注模块：**徐浩钦、王星云
+- **可视化分析模块：**陈骏
+- **数据处理与分析：**陈骏
+- **文档撰写：**徐浩钦
 
 ------
 
@@ -257,4 +275,3 @@ class CrawlerThread(QThread):	# 爬虫子线程类，由于爬虫时间较长且
 
    是应用的**入口**，执行main函数会实例化一个MainMenu，生成用户界面，在界面中可进行控件操作。
 
-   
